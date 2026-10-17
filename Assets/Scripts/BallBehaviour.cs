@@ -13,6 +13,8 @@ public class BallBehaviour : MonoBehaviour
     [SerializeField]
     private float defaultSpeed;
     private float previousVelocity;
+    [SerializeField]
+    private float ballSpeedIncrement;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -40,6 +42,10 @@ public class BallBehaviour : MonoBehaviour
     private void OnCollisionEnter2D(Collision2D collision)
     {
         Vector2 currentDirection = ballRigidBody.linearVelocity.normalized;
+        if (previousVelocity < maxSpeed)
+        {
+            previousVelocity += ballSpeedIncrement;
+        }
         Debug.Log(previousVelocity);
         Quaternion angle;
         if (collision.collider.gameObject.CompareTag("90°"))
@@ -106,9 +112,9 @@ public class BallBehaviour : MonoBehaviour
             Vector2 direction = angle * Vector2.right;
             ballRigidBody.linearVelocity = direction * previousVelocity;
         }
-        else 
+        else
         {
-            ballRigidBody.linearVelocity = currentDirection * (previousVelocity + 0.25f);
+            ballRigidBody.linearVelocity = currentDirection * previousVelocity;
         }
     }
 }

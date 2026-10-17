@@ -15,6 +15,9 @@ TagManager:
   - "70\xB0 Left"
   - "70\xB0 Right"
   - "90\xB0"
+  - Freeze
+  - Steel
+  - Bomb
   layers:
   - Default
   - TransparentFX
