@@ -18,6 +18,10 @@ TagManager:
   - Freeze
   - Steel
   - Bomb
+  - Ice
+  - Explosive
+  - Brick
+  - Ball
   layers:
   - Default
   - TransparentFX

@@ -4,17 +4,22 @@ public class PaddleController : MonoBehaviour
 {
     [SerializeField]
     private float moveSpeed;
-    private Rigidbody2D paddleRigidBody; 
+    private Rigidbody2D paddleRigidBody;
+    private bool gameStarted;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         paddleRigidBody = GetComponent<Rigidbody2D>();
+        gameStarted = false;
     }
 
     // Update is called once per frame
     void Update()
     {
-        movePaddleLateral();
+        if (gameStarted == true)
+        {
+            movePaddleLateral();
+        }
     }
 
     private void movePaddleLateral()
@@ -36,5 +41,9 @@ public class PaddleController : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
+        if (gameStarted == false)
+        {
+            gameStarted = true;
+        }
     }
 }
