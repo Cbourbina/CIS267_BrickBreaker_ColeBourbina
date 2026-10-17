@@ -14,7 +14,6 @@ TagManager:
   - "45\xB0 Right"
   - "70\xB0 Left"
   - "70\xB0 Right"
-  - "90\xB0"
   - Freeze
   - Steel
   - Bomb
@@ -22,6 +21,10 @@ TagManager:
   - Explosive
   - Brick
   - Ball
+  - LCenter
+  - RCenter
+  - "90\xB0"
+  - Bottom Bounds
   layers:
   - Default
   - TransparentFX
