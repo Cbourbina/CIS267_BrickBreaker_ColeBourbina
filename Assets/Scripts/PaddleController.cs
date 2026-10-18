@@ -5,7 +5,7 @@ public class PaddleController : MonoBehaviour
     [SerializeField]
     private float moveSpeed;
     private Rigidbody2D paddleRigidBody;
-    private bool gameStarted;
+    public bool gameStarted;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {

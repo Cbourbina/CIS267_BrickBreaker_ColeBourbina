@@ -24,7 +24,7 @@ TagManager:
   - LCenter
   - RCenter
   - "90\xB0"
-  - Bottom Bounds
+  - BottomBounds
   layers:
   - Default
   - TransparentFX

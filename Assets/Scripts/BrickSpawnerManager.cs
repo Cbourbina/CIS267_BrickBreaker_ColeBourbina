@@ -7,11 +7,15 @@ public class BrickSpawnerManager : MonoBehaviour
     public GameObject steelBrick;
     public GameObject explosiveBrick;
     public GameObject standardBrick;
+    //GameObject container;
+    public Transform brickContainer;
     
     private GameObject brickToSpawn;
     private int randomNumber;
     void Start()
     {
+        //container = GameObject.Find("Brick Container");
+        //brickContainer = container.transform;
         spawnBrick();
     }
 
@@ -45,5 +49,6 @@ public class BrickSpawnerManager : MonoBehaviour
         }
         //Debug.Log("RandomNum: " + randomNumber);
         brickToSpawn.transform.position = this.transform.position;
+        brickToSpawn.transform.SetParent(brickContainer);
     }
 }

@@ -368,6 +368,7 @@ MonoBehaviour:
   steelBrick: {fileID: 1578614514399256034, guid: aa8fc80c7d6d274458bcaa3f94dc95b3, type: 3}
   explosiveBrick: {fileID: 9205239416351406527, guid: 34c11db09c6468f46a64d274c73a0c06, type: 3}
   standardBrick: {fileID: 7348328631410601404, guid: 31e89b86b9f3c124db4796c7b7395b5e, type: 3}
+  brickContainer: {fileID: 541312015}
 --- !u!1 &24302797
 GameObject:
   m_ObjectHideFlags: 0
@@ -477,6 +478,7 @@ MonoBehaviour:
   steelBrick: {fileID: 1578614514399256034, guid: aa8fc80c7d6d274458bcaa3f94dc95b3, type: 3}
   explosiveBrick: {fileID: 9205239416351406527, guid: 34c11db09c6468f46a64d274c73a0c06, type: 3}
   standardBrick: {fileID: 7348328631410601404, guid: 31e89b86b9f3c124db4796c7b7395b5e, type: 3}
+  brickContainer: {fileID: 541312015}
 --- !u!1 &38279294
 GameObject:
   m_ObjectHideFlags: 0
@@ -586,6 +588,7 @@ MonoBehaviour:
   steelBrick: {fileID: 1578614514399256034, guid: aa8fc80c7d6d274458bcaa3f94dc95b3, type: 3}
   explosiveBrick: {fileID: 9205239416351406527, guid: 34c11db09c6468f46a64d274c73a0c06, type: 3}
   standardBrick: {fileID: 7348328631410601404, guid: 31e89b86b9f3c124db4796c7b7395b5e, type: 3}
+  brickContainer: {fileID: 541312015}
 --- !u!1 &48511076
 GameObject:
   m_ObjectHideFlags: 0
@@ -730,6 +733,7 @@ MonoBehaviour:
   steelBrick: {fileID: 1578614514399256034, guid: aa8fc80c7d6d274458bcaa3f94dc95b3, type: 3}
   explosiveBrick: {fileID: 9205239416351406527, guid: 34c11db09c6468f46a64d274c73a0c06, type: 3}
   standardBrick: {fileID: 7348328631410601404, guid: 31e89b86b9f3c124db4796c7b7395b5e, type: 3}
+  brickContainer: {fileID: 541312015}
 --- !u!1 &63990532
 GameObject:
   m_ObjectHideFlags: 0
@@ -839,6 +843,7 @@ MonoBehaviour:
   steelBrick: {fileID: 1578614514399256034, guid: aa8fc80c7d6d274458bcaa3f94dc95b3, type: 3}
   explosiveBrick: {fileID: 9205239416351406527, guid: 34c11db09c6468f46a64d274c73a0c06, type: 3}
   standardBrick: {fileID: 7348328631410601404, guid: 31e89b86b9f3c124db4796c7b7395b5e, type: 3}
+  brickContainer: {fileID: 541312015}
 --- !u!1 &79448742
 GameObject:
   m_ObjectHideFlags: 0
@@ -948,6 +953,7 @@ MonoBehaviour:
   steelBrick: {fileID: 1578614514399256034, guid: aa8fc80c7d6d274458bcaa3f94dc95b3, type: 3}
   explosiveBrick: {fileID: 9205239416351406527, guid: 34c11db09c6468f46a64d274c73a0c06, type: 3}
   standardBrick: {fileID: 7348328631410601404, guid: 31e89b86b9f3c124db4796c7b7395b5e, type: 3}
+  brickContainer: {fileID: 541312015}
 --- !u!1 &90744542
 GameObject:
   m_ObjectHideFlags: 0
@@ -1196,6 +1202,7 @@ MonoBehaviour:
   steelBrick: {fileID: 1578614514399256034, guid: aa8fc80c7d6d274458bcaa3f94dc95b3, type: 3}
   explosiveBrick: {fileID: 9205239416351406527, guid: 34c11db09c6468f46a64d274c73a0c06, type: 3}
   standardBrick: {fileID: 7348328631410601404, guid: 31e89b86b9f3c124db4796c7b7395b5e, type: 3}
+  brickContainer: {fileID: 541312015}
 --- !u!1 &107625195
 GameObject:
   m_ObjectHideFlags: 0
@@ -1305,6 +1312,7 @@ MonoBehaviour:
   steelBrick: {fileID: 1578614514399256034, guid: aa8fc80c7d6d274458bcaa3f94dc95b3, type: 3}
   explosiveBrick: {fileID: 9205239416351406527, guid: 34c11db09c6468f46a64d274c73a0c06, type: 3}
   standardBrick: {fileID: 7348328631410601404, guid: 31e89b86b9f3c124db4796c7b7395b5e, type: 3}
+  brickContainer: {fileID: 541312015}
 --- !u!1 &123197854
 GameObject:
   m_ObjectHideFlags: 0
@@ -1414,6 +1422,7 @@ MonoBehaviour:
   steelBrick: {fileID: 1578614514399256034, guid: aa8fc80c7d6d274458bcaa3f94dc95b3, type: 3}
   explosiveBrick: {fileID: 9205239416351406527, guid: 34c11db09c6468f46a64d274c73a0c06, type: 3}
   standardBrick: {fileID: 7348328631410601404, guid: 31e89b86b9f3c124db4796c7b7395b5e, type: 3}
+  brickContainer: {fileID: 541312015}
 --- !u!1 &250130292
 GameObject:
   m_ObjectHideFlags: 0
@@ -1523,6 +1532,7 @@ MonoBehaviour:
   steelBrick: {fileID: 1578614514399256034, guid: aa8fc80c7d6d274458bcaa3f94dc95b3, type: 3}
   explosiveBrick: {fileID: 9205239416351406527, guid: 34c11db09c6468f46a64d274c73a0c06, type: 3}
   standardBrick: {fileID: 7348328631410601404, guid: 31e89b86b9f3c124db4796c7b7395b5e, type: 3}
+  brickContainer: {fileID: 541312015}
 --- !u!1 &260990306
 GameObject:
   m_ObjectHideFlags: 0
@@ -1771,6 +1781,7 @@ MonoBehaviour:
   steelBrick: {fileID: 1578614514399256034, guid: aa8fc80c7d6d274458bcaa3f94dc95b3, type: 3}
   explosiveBrick: {fileID: 9205239416351406527, guid: 34c11db09c6468f46a64d274c73a0c06, type: 3}
   standardBrick: {fileID: 7348328631410601404, guid: 31e89b86b9f3c124db4796c7b7395b5e, type: 3}
+  brickContainer: {fileID: 541312015}
 --- !u!1 &295664335
 GameObject:
   m_ObjectHideFlags: 0
@@ -1880,6 +1891,7 @@ MonoBehaviour:
   steelBrick: {fileID: 1578614514399256034, guid: aa8fc80c7d6d274458bcaa3f94dc95b3, type: 3}
   explosiveBrick: {fileID: 9205239416351406527, guid: 34c11db09c6468f46a64d274c73a0c06, type: 3}
   standardBrick: {fileID: 7348328631410601404, guid: 31e89b86b9f3c124db4796c7b7395b5e, type: 3}
+  brickContainer: {fileID: 541312015}
 --- !u!1 &300774117
 GameObject:
   m_ObjectHideFlags: 0
@@ -1989,6 +2001,7 @@ MonoBehaviour:
   steelBrick: {fileID: 1578614514399256034, guid: aa8fc80c7d6d274458bcaa3f94dc95b3, type: 3}
   explosiveBrick: {fileID: 9205239416351406527, guid: 34c11db09c6468f46a64d274c73a0c06, type: 3}
   standardBrick: {fileID: 7348328631410601404, guid: 31e89b86b9f3c124db4796c7b7395b5e, type: 3}
+  brickContainer: {fileID: 541312015}
 --- !u!1 &321394734
 GameObject:
   m_ObjectHideFlags: 0
@@ -2098,6 +2111,7 @@ MonoBehaviour:
   steelBrick: {fileID: 1578614514399256034, guid: aa8fc80c7d6d274458bcaa3f94dc95b3, type: 3}
   explosiveBrick: {fileID: 9205239416351406527, guid: 34c11db09c6468f46a64d274c73a0c06, type: 3}
   standardBrick: {fileID: 7348328631410601404, guid: 31e89b86b9f3c124db4796c7b7395b5e, type: 3}
+  brickContainer: {fileID: 541312015}
 --- !u!1 &348812361
 GameObject:
   m_ObjectHideFlags: 0
@@ -2207,6 +2221,7 @@ MonoBehaviour:
   steelBrick: {fileID: 1578614514399256034, guid: aa8fc80c7d6d274458bcaa3f94dc95b3, type: 3}
   explosiveBrick: {fileID: 9205239416351406527, guid: 34c11db09c6468f46a64d274c73a0c06, type: 3}
   standardBrick: {fileID: 7348328631410601404, guid: 31e89b86b9f3c124db4796c7b7395b5e, type: 3}
+  brickContainer: {fileID: 541312015}
 --- !u!1 &353941556
 GameObject:
   m_ObjectHideFlags: 0
@@ -2594,6 +2609,7 @@ MonoBehaviour:
   steelBrick: {fileID: 1578614514399256034, guid: aa8fc80c7d6d274458bcaa3f94dc95b3, type: 3}
   explosiveBrick: {fileID: 9205239416351406527, guid: 34c11db09c6468f46a64d274c73a0c06, type: 3}
   standardBrick: {fileID: 7348328631410601404, guid: 31e89b86b9f3c124db4796c7b7395b5e, type: 3}
+  brickContainer: {fileID: 541312015}
 --- !u!1 &418541642
 GameObject:
   m_ObjectHideFlags: 0
@@ -2703,6 +2719,7 @@ MonoBehaviour:
   steelBrick: {fileID: 1578614514399256034, guid: aa8fc80c7d6d274458bcaa3f94dc95b3, type: 3}
   explosiveBrick: {fileID: 9205239416351406527, guid: 34c11db09c6468f46a64d274c73a0c06, type: 3}
   standardBrick: {fileID: 7348328631410601404, guid: 31e89b86b9f3c124db4796c7b7395b5e, type: 3}
+  brickContainer: {fileID: 541312015}
 --- !u!1 &427000120
 GameObject:
   m_ObjectHideFlags: 0
@@ -2812,6 +2829,7 @@ MonoBehaviour:
   steelBrick: {fileID: 1578614514399256034, guid: aa8fc80c7d6d274458bcaa3f94dc95b3, type: 3}
   explosiveBrick: {fileID: 9205239416351406527, guid: 34c11db09c6468f46a64d274c73a0c06, type: 3}
   standardBrick: {fileID: 7348328631410601404, guid: 31e89b86b9f3c124db4796c7b7395b5e, type: 3}
+  brickContainer: {fileID: 541312015}
 --- !u!1 &434111730
 GameObject:
   m_ObjectHideFlags: 0
@@ -2921,6 +2939,7 @@ MonoBehaviour:
   steelBrick: {fileID: 1578614514399256034, guid: aa8fc80c7d6d274458bcaa3f94dc95b3, type: 3}
   explosiveBrick: {fileID: 9205239416351406527, guid: 34c11db09c6468f46a64d274c73a0c06, type: 3}
   standardBrick: {fileID: 7348328631410601404, guid: 31e89b86b9f3c124db4796c7b7395b5e, type: 3}
+  brickContainer: {fileID: 541312015}
 --- !u!1 &439442767
 GameObject:
   m_ObjectHideFlags: 0
@@ -3030,6 +3049,7 @@ MonoBehaviour:
   steelBrick: {fileID: 1578614514399256034, guid: aa8fc80c7d6d274458bcaa3f94dc95b3, type: 3}
   explosiveBrick: {fileID: 9205239416351406527, guid: 34c11db09c6468f46a64d274c73a0c06, type: 3}
   standardBrick: {fileID: 7348328631410601404, guid: 31e89b86b9f3c124db4796c7b7395b5e, type: 3}
+  brickContainer: {fileID: 541312015}
 --- !u!1 &444523817
 GameObject:
   m_ObjectHideFlags: 0
@@ -3139,6 +3159,7 @@ MonoBehaviour:
   steelBrick: {fileID: 1578614514399256034, guid: aa8fc80c7d6d274458bcaa3f94dc95b3, type: 3}
   explosiveBrick: {fileID: 9205239416351406527, guid: 34c11db09c6468f46a64d274c73a0c06, type: 3}
   standardBrick: {fileID: 7348328631410601404, guid: 31e89b86b9f3c124db4796c7b7395b5e, type: 3}
+  brickContainer: {fileID: 541312015}
 --- !u!1 &450792098
 GameObject:
   m_ObjectHideFlags: 0
@@ -3248,6 +3269,7 @@ MonoBehaviour:
   steelBrick: {fileID: 1578614514399256034, guid: aa8fc80c7d6d274458bcaa3f94dc95b3, type: 3}
   explosiveBrick: {fileID: 9205239416351406527, guid: 34c11db09c6468f46a64d274c73a0c06, type: 3}
   standardBrick: {fileID: 7348328631410601404, guid: 31e89b86b9f3c124db4796c7b7395b5e, type: 3}
+  brickContainer: {fileID: 541312015}
 --- !u!1 &451407571
 GameObject:
   m_ObjectHideFlags: 0
@@ -3357,6 +3379,7 @@ MonoBehaviour:
   steelBrick: {fileID: 1578614514399256034, guid: aa8fc80c7d6d274458bcaa3f94dc95b3, type: 3}
   explosiveBrick: {fileID: 9205239416351406527, guid: 34c11db09c6468f46a64d274c73a0c06, type: 3}
   standardBrick: {fileID: 7348328631410601404, guid: 31e89b86b9f3c124db4796c7b7395b5e, type: 3}
+  brickContainer: {fileID: 541312015}
 --- !u!1 &481066275
 GameObject:
   m_ObjectHideFlags: 0
@@ -3466,6 +3489,7 @@ MonoBehaviour:
   steelBrick: {fileID: 1578614514399256034, guid: aa8fc80c7d6d274458bcaa3f94dc95b3, type: 3}
   explosiveBrick: {fileID: 9205239416351406527, guid: 34c11db09c6468f46a64d274c73a0c06, type: 3}
   standardBrick: {fileID: 7348328631410601404, guid: 31e89b86b9f3c124db4796c7b7395b5e, type: 3}
+  brickContainer: {fileID: 541312015}
 --- !u!1 &491677981
 GameObject:
   m_ObjectHideFlags: 0
@@ -3575,6 +3599,7 @@ MonoBehaviour:
   steelBrick: {fileID: 1578614514399256034, guid: aa8fc80c7d6d274458bcaa3f94dc95b3, type: 3}
   explosiveBrick: {fileID: 9205239416351406527, guid: 34c11db09c6468f46a64d274c73a0c06, type: 3}
   standardBrick: {fileID: 7348328631410601404, guid: 31e89b86b9f3c124db4796c7b7395b5e, type: 3}
+  brickContainer: {fileID: 541312015}
 --- !u!1 &495802498
 GameObject:
   m_ObjectHideFlags: 0
@@ -3684,6 +3709,7 @@ MonoBehaviour:
   steelBrick: {fileID: 1578614514399256034, guid: aa8fc80c7d6d274458bcaa3f94dc95b3, type: 3}
   explosiveBrick: {fileID: 9205239416351406527, guid: 34c11db09c6468f46a64d274c73a0c06, type: 3}
   standardBrick: {fileID: 7348328631410601404, guid: 31e89b86b9f3c124db4796c7b7395b5e, type: 3}
+  brickContainer: {fileID: 541312015}
 --- !u!1 &511017948
 GameObject:
   m_ObjectHideFlags: 0
@@ -3717,6 +3743,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PaddleController
   moveSpeed: 10
+  gameStarted: 0
 --- !u!50 &511017950
 Rigidbody2D:
   serializedVersion: 5
@@ -4112,6 +4139,7 @@ MonoBehaviour:
   steelBrick: {fileID: 1578614514399256034, guid: aa8fc80c7d6d274458bcaa3f94dc95b3, type: 3}
   explosiveBrick: {fileID: 9205239416351406527, guid: 34c11db09c6468f46a64d274c73a0c06, type: 3}
   standardBrick: {fileID: 7348328631410601404, guid: 31e89b86b9f3c124db4796c7b7395b5e, type: 3}
+  brickContainer: {fileID: 541312015}
 --- !u!1 &531707861
 GameObject:
   m_ObjectHideFlags: 0
@@ -4221,6 +4249,38 @@ MonoBehaviour:
   steelBrick: {fileID: 1578614514399256034, guid: aa8fc80c7d6d274458bcaa3f94dc95b3, type: 3}
   explosiveBrick: {fileID: 9205239416351406527, guid: 34c11db09c6468f46a64d274c73a0c06, type: 3}
   standardBrick: {fileID: 7348328631410601404, guid: 31e89b86b9f3c124db4796c7b7395b5e, type: 3}
+  brickContainer: {fileID: 541312015}
+--- !u!1 &541312014
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 541312015}
+  m_Layer: 0
+  m_Name: BrickContainer
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &541312015
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 541312014}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.43781, y: -5.36745, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &557412754
 GameObject:
   m_ObjectHideFlags: 0
@@ -4330,6 +4390,7 @@ MonoBehaviour:
   steelBrick: {fileID: 1578614514399256034, guid: aa8fc80c7d6d274458bcaa3f94dc95b3, type: 3}
   explosiveBrick: {fileID: 9205239416351406527, guid: 34c11db09c6468f46a64d274c73a0c06, type: 3}
   standardBrick: {fileID: 7348328631410601404, guid: 31e89b86b9f3c124db4796c7b7395b5e, type: 3}
+  brickContainer: {fileID: 541312015}
 --- !u!1 &581948587
 GameObject:
   m_ObjectHideFlags: 0
@@ -4439,6 +4500,7 @@ MonoBehaviour:
   steelBrick: {fileID: 1578614514399256034, guid: aa8fc80c7d6d274458bcaa3f94dc95b3, type: 3}
   explosiveBrick: {fileID: 9205239416351406527, guid: 34c11db09c6468f46a64d274c73a0c06, type: 3}
   standardBrick: {fileID: 7348328631410601404, guid: 31e89b86b9f3c124db4796c7b7395b5e, type: 3}
+  brickContainer: {fileID: 541312015}
 --- !u!1 &590738554
 GameObject:
   m_ObjectHideFlags: 0
@@ -4548,6 +4610,7 @@ MonoBehaviour:
   steelBrick: {fileID: 1578614514399256034, guid: aa8fc80c7d6d274458bcaa3f94dc95b3, type: 3}
   explosiveBrick: {fileID: 9205239416351406527, guid: 34c11db09c6468f46a64d274c73a0c06, type: 3}
   standardBrick: {fileID: 7348328631410601404, guid: 31e89b86b9f3c124db4796c7b7395b5e, type: 3}
+  brickContainer: {fileID: 541312015}
 --- !u!1 &602627933
 GameObject:
   m_ObjectHideFlags: 0
@@ -4657,6 +4720,7 @@ MonoBehaviour:
   steelBrick: {fileID: 1578614514399256034, guid: aa8fc80c7d6d274458bcaa3f94dc95b3, type: 3}
   explosiveBrick: {fileID: 9205239416351406527, guid: 34c11db09c6468f46a64d274c73a0c06, type: 3}
   standardBrick: {fileID: 7348328631410601404, guid: 31e89b86b9f3c124db4796c7b7395b5e, type: 3}
+  brickContainer: {fileID: 541312015}
 --- !u!1 &619394800
 GameObject:
   m_ObjectHideFlags: 0
@@ -4871,6 +4935,7 @@ MonoBehaviour:
   steelBrick: {fileID: 1578614514399256034, guid: aa8fc80c7d6d274458bcaa3f94dc95b3, type: 3}
   explosiveBrick: {fileID: 9205239416351406527, guid: 34c11db09c6468f46a64d274c73a0c06, type: 3}
   standardBrick: {fileID: 7348328631410601404, guid: 31e89b86b9f3c124db4796c7b7395b5e, type: 3}
+  brickContainer: {fileID: 541312015}
 --- !u!1 &713105058
 GameObject:
   m_ObjectHideFlags: 0
@@ -4884,7 +4949,7 @@ GameObject:
   - component: {fileID: 713105061}
   m_Layer: 0
   m_Name: BotWall
-  m_TagString: Bottom Bounds
+  m_TagString: BottomBounds
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4958,8 +5023,8 @@ Transform:
   m_GameObject: {fileID: 713105058}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: 0.7071068, w: 0.7071068}
-  m_LocalPosition: {x: -2.17339, y: -10.71186, z: 0}
-  m_LocalScale: {x: 4, y: 20, z: 1}
+  m_LocalPosition: {x: -2.1734, y: -9.7401, z: 0}
+  m_LocalScale: {x: 5.943287, y: 20, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 48511077}
@@ -5119,6 +5184,7 @@ MonoBehaviour:
   steelBrick: {fileID: 1578614514399256034, guid: aa8fc80c7d6d274458bcaa3f94dc95b3, type: 3}
   explosiveBrick: {fileID: 9205239416351406527, guid: 34c11db09c6468f46a64d274c73a0c06, type: 3}
   standardBrick: {fileID: 7348328631410601404, guid: 31e89b86b9f3c124db4796c7b7395b5e, type: 3}
+  brickContainer: {fileID: 541312015}
 --- !u!1 &726577044
 GameObject:
   m_ObjectHideFlags: 0
@@ -5228,6 +5294,7 @@ MonoBehaviour:
   steelBrick: {fileID: 1578614514399256034, guid: aa8fc80c7d6d274458bcaa3f94dc95b3, type: 3}
   explosiveBrick: {fileID: 9205239416351406527, guid: 34c11db09c6468f46a64d274c73a0c06, type: 3}
   standardBrick: {fileID: 7348328631410601404, guid: 31e89b86b9f3c124db4796c7b7395b5e, type: 3}
+  brickContainer: {fileID: 541312015}
 --- !u!1 &787850169
 GameObject:
   m_ObjectHideFlags: 0
@@ -5337,6 +5404,7 @@ MonoBehaviour:
   steelBrick: {fileID: 1578614514399256034, guid: aa8fc80c7d6d274458bcaa3f94dc95b3, type: 3}
   explosiveBrick: {fileID: 9205239416351406527, guid: 34c11db09c6468f46a64d274c73a0c06, type: 3}
   standardBrick: {fileID: 7348328631410601404, guid: 31e89b86b9f3c124db4796c7b7395b5e, type: 3}
+  brickContainer: {fileID: 541312015}
 --- !u!1 &806796442
 GameObject:
   m_ObjectHideFlags: 0
@@ -5585,6 +5653,7 @@ MonoBehaviour:
   steelBrick: {fileID: 1578614514399256034, guid: aa8fc80c7d6d274458bcaa3f94dc95b3, type: 3}
   explosiveBrick: {fileID: 9205239416351406527, guid: 34c11db09c6468f46a64d274c73a0c06, type: 3}
   standardBrick: {fileID: 7348328631410601404, guid: 31e89b86b9f3c124db4796c7b7395b5e, type: 3}
+  brickContainer: {fileID: 541312015}
 --- !u!1 &870714740
 GameObject:
   m_ObjectHideFlags: 0
@@ -5694,6 +5763,7 @@ MonoBehaviour:
   steelBrick: {fileID: 1578614514399256034, guid: aa8fc80c7d6d274458bcaa3f94dc95b3, type: 3}
   explosiveBrick: {fileID: 9205239416351406527, guid: 34c11db09c6468f46a64d274c73a0c06, type: 3}
   standardBrick: {fileID: 7348328631410601404, guid: 31e89b86b9f3c124db4796c7b7395b5e, type: 3}
+  brickContainer: {fileID: 541312015}
 --- !u!1 &877599543
 GameObject:
   m_ObjectHideFlags: 0
@@ -5943,6 +6013,7 @@ MonoBehaviour:
   steelBrick: {fileID: 1578614514399256034, guid: aa8fc80c7d6d274458bcaa3f94dc95b3, type: 3}
   explosiveBrick: {fileID: 9205239416351406527, guid: 34c11db09c6468f46a64d274c73a0c06, type: 3}
   standardBrick: {fileID: 7348328631410601404, guid: 31e89b86b9f3c124db4796c7b7395b5e, type: 3}
+  brickContainer: {fileID: 541312015}
 --- !u!1 &951370986
 GameObject:
   m_ObjectHideFlags: 0
@@ -6052,6 +6123,7 @@ MonoBehaviour:
   steelBrick: {fileID: 1578614514399256034, guid: aa8fc80c7d6d274458bcaa3f94dc95b3, type: 3}
   explosiveBrick: {fileID: 9205239416351406527, guid: 34c11db09c6468f46a64d274c73a0c06, type: 3}
   standardBrick: {fileID: 7348328631410601404, guid: 31e89b86b9f3c124db4796c7b7395b5e, type: 3}
+  brickContainer: {fileID: 541312015}
 --- !u!1 &956461914
 GameObject:
   m_ObjectHideFlags: 0
@@ -6163,6 +6235,7 @@ MonoBehaviour:
   minSpeed: 5
   defaultSpeed: 7
   ballSpeedIncrement: 1
+  brickContainer: {fileID: 541312015}
 --- !u!50 &956461918
 Rigidbody2D:
   serializedVersion: 5
@@ -6335,6 +6408,7 @@ MonoBehaviour:
   steelBrick: {fileID: 1578614514399256034, guid: aa8fc80c7d6d274458bcaa3f94dc95b3, type: 3}
   explosiveBrick: {fileID: 9205239416351406527, guid: 34c11db09c6468f46a64d274c73a0c06, type: 3}
   standardBrick: {fileID: 7348328631410601404, guid: 31e89b86b9f3c124db4796c7b7395b5e, type: 3}
+  brickContainer: {fileID: 541312015}
 --- !u!1 &1090185361
 GameObject:
   m_ObjectHideFlags: 0
@@ -6444,6 +6518,7 @@ MonoBehaviour:
   steelBrick: {fileID: 1578614514399256034, guid: aa8fc80c7d6d274458bcaa3f94dc95b3, type: 3}
   explosiveBrick: {fileID: 9205239416351406527, guid: 34c11db09c6468f46a64d274c73a0c06, type: 3}
   standardBrick: {fileID: 7348328631410601404, guid: 31e89b86b9f3c124db4796c7b7395b5e, type: 3}
+  brickContainer: {fileID: 541312015}
 --- !u!1 &1134606681
 GameObject:
   m_ObjectHideFlags: 0
@@ -6553,6 +6628,7 @@ MonoBehaviour:
   steelBrick: {fileID: 1578614514399256034, guid: aa8fc80c7d6d274458bcaa3f94dc95b3, type: 3}
   explosiveBrick: {fileID: 9205239416351406527, guid: 34c11db09c6468f46a64d274c73a0c06, type: 3}
   standardBrick: {fileID: 7348328631410601404, guid: 31e89b86b9f3c124db4796c7b7395b5e, type: 3}
+  brickContainer: {fileID: 541312015}
 --- !u!1 &1148823212
 GameObject:
   m_ObjectHideFlags: 0
@@ -6662,6 +6738,7 @@ MonoBehaviour:
   steelBrick: {fileID: 1578614514399256034, guid: aa8fc80c7d6d274458bcaa3f94dc95b3, type: 3}
   explosiveBrick: {fileID: 9205239416351406527, guid: 34c11db09c6468f46a64d274c73a0c06, type: 3}
   standardBrick: {fileID: 7348328631410601404, guid: 31e89b86b9f3c124db4796c7b7395b5e, type: 3}
+  brickContainer: {fileID: 541312015}
 --- !u!1 &1149188094
 GameObject:
   m_ObjectHideFlags: 0
@@ -6771,6 +6848,7 @@ MonoBehaviour:
   steelBrick: {fileID: 1578614514399256034, guid: aa8fc80c7d6d274458bcaa3f94dc95b3, type: 3}
   explosiveBrick: {fileID: 9205239416351406527, guid: 34c11db09c6468f46a64d274c73a0c06, type: 3}
   standardBrick: {fileID: 7348328631410601404, guid: 31e89b86b9f3c124db4796c7b7395b5e, type: 3}
+  brickContainer: {fileID: 541312015}
 --- !u!1 &1165649320
 GameObject:
   m_ObjectHideFlags: 0
@@ -6880,6 +6958,7 @@ MonoBehaviour:
   steelBrick: {fileID: 1578614514399256034, guid: aa8fc80c7d6d274458bcaa3f94dc95b3, type: 3}
   explosiveBrick: {fileID: 9205239416351406527, guid: 34c11db09c6468f46a64d274c73a0c06, type: 3}
   standardBrick: {fileID: 7348328631410601404, guid: 31e89b86b9f3c124db4796c7b7395b5e, type: 3}
+  brickContainer: {fileID: 541312015}
 --- !u!1 &1166576817
 GameObject:
   m_ObjectHideFlags: 0
@@ -6989,6 +7068,7 @@ MonoBehaviour:
   steelBrick: {fileID: 1578614514399256034, guid: aa8fc80c7d6d274458bcaa3f94dc95b3, type: 3}
   explosiveBrick: {fileID: 9205239416351406527, guid: 34c11db09c6468f46a64d274c73a0c06, type: 3}
   standardBrick: {fileID: 7348328631410601404, guid: 31e89b86b9f3c124db4796c7b7395b5e, type: 3}
+  brickContainer: {fileID: 541312015}
 --- !u!1 &1168024251
 GameObject:
   m_ObjectHideFlags: 0
@@ -7098,6 +7178,7 @@ MonoBehaviour:
   steelBrick: {fileID: 1578614514399256034, guid: aa8fc80c7d6d274458bcaa3f94dc95b3, type: 3}
   explosiveBrick: {fileID: 9205239416351406527, guid: 34c11db09c6468f46a64d274c73a0c06, type: 3}
   standardBrick: {fileID: 7348328631410601404, guid: 31e89b86b9f3c124db4796c7b7395b5e, type: 3}
+  brickContainer: {fileID: 541312015}
 --- !u!1 &1185295844
 GameObject:
   m_ObjectHideFlags: 0
@@ -7313,6 +7394,7 @@ MonoBehaviour:
   steelBrick: {fileID: 1578614514399256034, guid: aa8fc80c7d6d274458bcaa3f94dc95b3, type: 3}
   explosiveBrick: {fileID: 9205239416351406527, guid: 34c11db09c6468f46a64d274c73a0c06, type: 3}
   standardBrick: {fileID: 7348328631410601404, guid: 31e89b86b9f3c124db4796c7b7395b5e, type: 3}
+  brickContainer: {fileID: 541312015}
 --- !u!1 &1259480289
 GameObject:
   m_ObjectHideFlags: 0
@@ -7561,6 +7643,7 @@ MonoBehaviour:
   steelBrick: {fileID: 1578614514399256034, guid: aa8fc80c7d6d274458bcaa3f94dc95b3, type: 3}
   explosiveBrick: {fileID: 9205239416351406527, guid: 34c11db09c6468f46a64d274c73a0c06, type: 3}
   standardBrick: {fileID: 7348328631410601404, guid: 31e89b86b9f3c124db4796c7b7395b5e, type: 3}
+  brickContainer: {fileID: 541312015}
 --- !u!1 &1431881187
 GameObject:
   m_ObjectHideFlags: 0
@@ -7710,6 +7793,7 @@ MonoBehaviour:
   steelBrick: {fileID: 1578614514399256034, guid: aa8fc80c7d6d274458bcaa3f94dc95b3, type: 3}
   explosiveBrick: {fileID: 9205239416351406527, guid: 34c11db09c6468f46a64d274c73a0c06, type: 3}
   standardBrick: {fileID: 7348328631410601404, guid: 31e89b86b9f3c124db4796c7b7395b5e, type: 3}
+  brickContainer: {fileID: 541312015}
 --- !u!1 &1516604036
 GameObject:
   m_ObjectHideFlags: 0
@@ -7958,6 +8042,7 @@ MonoBehaviour:
   steelBrick: {fileID: 1578614514399256034, guid: aa8fc80c7d6d274458bcaa3f94dc95b3, type: 3}
   explosiveBrick: {fileID: 9205239416351406527, guid: 34c11db09c6468f46a64d274c73a0c06, type: 3}
   standardBrick: {fileID: 7348328631410601404, guid: 31e89b86b9f3c124db4796c7b7395b5e, type: 3}
+  brickContainer: {fileID: 541312015}
 --- !u!1 &1545875041
 GameObject:
   m_ObjectHideFlags: 0
@@ -8067,6 +8152,7 @@ MonoBehaviour:
   steelBrick: {fileID: 1578614514399256034, guid: aa8fc80c7d6d274458bcaa3f94dc95b3, type: 3}
   explosiveBrick: {fileID: 9205239416351406527, guid: 34c11db09c6468f46a64d274c73a0c06, type: 3}
   standardBrick: {fileID: 7348328631410601404, guid: 31e89b86b9f3c124db4796c7b7395b5e, type: 3}
+  brickContainer: {fileID: 541312015}
 --- !u!1 &1560767190
 GameObject:
   m_ObjectHideFlags: 0
@@ -8593,6 +8679,7 @@ MonoBehaviour:
   steelBrick: {fileID: 1578614514399256034, guid: aa8fc80c7d6d274458bcaa3f94dc95b3, type: 3}
   explosiveBrick: {fileID: 9205239416351406527, guid: 34c11db09c6468f46a64d274c73a0c06, type: 3}
   standardBrick: {fileID: 7348328631410601404, guid: 31e89b86b9f3c124db4796c7b7395b5e, type: 3}
+  brickContainer: {fileID: 541312015}
 --- !u!1 &1701607753
 GameObject:
   m_ObjectHideFlags: 0
@@ -8702,6 +8789,7 @@ MonoBehaviour:
   steelBrick: {fileID: 1578614514399256034, guid: aa8fc80c7d6d274458bcaa3f94dc95b3, type: 3}
   explosiveBrick: {fileID: 9205239416351406527, guid: 34c11db09c6468f46a64d274c73a0c06, type: 3}
   standardBrick: {fileID: 7348328631410601404, guid: 31e89b86b9f3c124db4796c7b7395b5e, type: 3}
+  brickContainer: {fileID: 541312015}
 --- !u!1 &1707165558
 GameObject:
   m_ObjectHideFlags: 0
@@ -8811,6 +8899,7 @@ MonoBehaviour:
   steelBrick: {fileID: 1578614514399256034, guid: aa8fc80c7d6d274458bcaa3f94dc95b3, type: 3}
   explosiveBrick: {fileID: 9205239416351406527, guid: 34c11db09c6468f46a64d274c73a0c06, type: 3}
   standardBrick: {fileID: 7348328631410601404, guid: 31e89b86b9f3c124db4796c7b7395b5e, type: 3}
+  brickContainer: {fileID: 541312015}
 --- !u!1 &1727745588
 GameObject:
   m_ObjectHideFlags: 0
@@ -8920,6 +9009,7 @@ MonoBehaviour:
   steelBrick: {fileID: 1578614514399256034, guid: aa8fc80c7d6d274458bcaa3f94dc95b3, type: 3}
   explosiveBrick: {fileID: 9205239416351406527, guid: 34c11db09c6468f46a64d274c73a0c06, type: 3}
   standardBrick: {fileID: 7348328631410601404, guid: 31e89b86b9f3c124db4796c7b7395b5e, type: 3}
+  brickContainer: {fileID: 541312015}
 --- !u!1 &1739708050
 GameObject:
   m_ObjectHideFlags: 0
@@ -9029,6 +9119,7 @@ MonoBehaviour:
   steelBrick: {fileID: 1578614514399256034, guid: aa8fc80c7d6d274458bcaa3f94dc95b3, type: 3}
   explosiveBrick: {fileID: 9205239416351406527, guid: 34c11db09c6468f46a64d274c73a0c06, type: 3}
   standardBrick: {fileID: 7348328631410601404, guid: 31e89b86b9f3c124db4796c7b7395b5e, type: 3}
+  brickContainer: {fileID: 541312015}
 --- !u!1 &1743093206
 GameObject:
   m_ObjectHideFlags: 0
@@ -9277,6 +9368,7 @@ MonoBehaviour:
   steelBrick: {fileID: 1578614514399256034, guid: aa8fc80c7d6d274458bcaa3f94dc95b3, type: 3}
   explosiveBrick: {fileID: 9205239416351406527, guid: 34c11db09c6468f46a64d274c73a0c06, type: 3}
   standardBrick: {fileID: 7348328631410601404, guid: 31e89b86b9f3c124db4796c7b7395b5e, type: 3}
+  brickContainer: {fileID: 541312015}
 --- !u!1 &1757107454
 GameObject:
   m_ObjectHideFlags: 0
@@ -9386,6 +9478,7 @@ MonoBehaviour:
   steelBrick: {fileID: 1578614514399256034, guid: aa8fc80c7d6d274458bcaa3f94dc95b3, type: 3}
   explosiveBrick: {fileID: 9205239416351406527, guid: 34c11db09c6468f46a64d274c73a0c06, type: 3}
   standardBrick: {fileID: 7348328631410601404, guid: 31e89b86b9f3c124db4796c7b7395b5e, type: 3}
+  brickContainer: {fileID: 541312015}
 --- !u!1 &1793188021
 GameObject:
   m_ObjectHideFlags: 0
@@ -9495,6 +9588,7 @@ MonoBehaviour:
   steelBrick: {fileID: 1578614514399256034, guid: aa8fc80c7d6d274458bcaa3f94dc95b3, type: 3}
   explosiveBrick: {fileID: 9205239416351406527, guid: 34c11db09c6468f46a64d274c73a0c06, type: 3}
   standardBrick: {fileID: 7348328631410601404, guid: 31e89b86b9f3c124db4796c7b7395b5e, type: 3}
+  brickContainer: {fileID: 541312015}
 --- !u!1 &1799448208
 GameObject:
   m_ObjectHideFlags: 0
@@ -9604,6 +9698,7 @@ MonoBehaviour:
   steelBrick: {fileID: 1578614514399256034, guid: aa8fc80c7d6d274458bcaa3f94dc95b3, type: 3}
   explosiveBrick: {fileID: 9205239416351406527, guid: 34c11db09c6468f46a64d274c73a0c06, type: 3}
   standardBrick: {fileID: 7348328631410601404, guid: 31e89b86b9f3c124db4796c7b7395b5e, type: 3}
+  brickContainer: {fileID: 541312015}
 --- !u!1 &1832955420
 GameObject:
   m_ObjectHideFlags: 0
@@ -9713,6 +9808,7 @@ MonoBehaviour:
   steelBrick: {fileID: 1578614514399256034, guid: aa8fc80c7d6d274458bcaa3f94dc95b3, type: 3}
   explosiveBrick: {fileID: 9205239416351406527, guid: 34c11db09c6468f46a64d274c73a0c06, type: 3}
   standardBrick: {fileID: 7348328631410601404, guid: 31e89b86b9f3c124db4796c7b7395b5e, type: 3}
+  brickContainer: {fileID: 541312015}
 --- !u!1 &1887297376
 GameObject:
   m_ObjectHideFlags: 0
@@ -9822,6 +9918,7 @@ MonoBehaviour:
   steelBrick: {fileID: 1578614514399256034, guid: aa8fc80c7d6d274458bcaa3f94dc95b3, type: 3}
   explosiveBrick: {fileID: 9205239416351406527, guid: 34c11db09c6468f46a64d274c73a0c06, type: 3}
   standardBrick: {fileID: 7348328631410601404, guid: 31e89b86b9f3c124db4796c7b7395b5e, type: 3}
+  brickContainer: {fileID: 541312015}
 --- !u!1 &1901235951
 GameObject:
   m_ObjectHideFlags: 0
@@ -9931,6 +10028,7 @@ MonoBehaviour:
   steelBrick: {fileID: 1578614514399256034, guid: aa8fc80c7d6d274458bcaa3f94dc95b3, type: 3}
   explosiveBrick: {fileID: 9205239416351406527, guid: 34c11db09c6468f46a64d274c73a0c06, type: 3}
   standardBrick: {fileID: 7348328631410601404, guid: 31e89b86b9f3c124db4796c7b7395b5e, type: 3}
+  brickContainer: {fileID: 541312015}
 --- !u!1 &1973918103
 GameObject:
   m_ObjectHideFlags: 0
@@ -10040,6 +10138,7 @@ MonoBehaviour:
   steelBrick: {fileID: 1578614514399256034, guid: aa8fc80c7d6d274458bcaa3f94dc95b3, type: 3}
   explosiveBrick: {fileID: 9205239416351406527, guid: 34c11db09c6468f46a64d274c73a0c06, type: 3}
   standardBrick: {fileID: 7348328631410601404, guid: 31e89b86b9f3c124db4796c7b7395b5e, type: 3}
+  brickContainer: {fileID: 541312015}
 --- !u!1 &1980054736
 GameObject:
   m_ObjectHideFlags: 0
@@ -10288,6 +10387,7 @@ MonoBehaviour:
   steelBrick: {fileID: 1578614514399256034, guid: aa8fc80c7d6d274458bcaa3f94dc95b3, type: 3}
   explosiveBrick: {fileID: 9205239416351406527, guid: 34c11db09c6468f46a64d274c73a0c06, type: 3}
   standardBrick: {fileID: 7348328631410601404, guid: 31e89b86b9f3c124db4796c7b7395b5e, type: 3}
+  brickContainer: {fileID: 541312015}
 --- !u!1 &2014207672
 GameObject:
   m_ObjectHideFlags: 0
@@ -10397,6 +10497,7 @@ MonoBehaviour:
   steelBrick: {fileID: 1578614514399256034, guid: aa8fc80c7d6d274458bcaa3f94dc95b3, type: 3}
   explosiveBrick: {fileID: 9205239416351406527, guid: 34c11db09c6468f46a64d274c73a0c06, type: 3}
   standardBrick: {fileID: 7348328631410601404, guid: 31e89b86b9f3c124db4796c7b7395b5e, type: 3}
+  brickContainer: {fileID: 541312015}
 --- !u!1 &2018131822
 GameObject:
   m_ObjectHideFlags: 0
@@ -10506,6 +10607,7 @@ MonoBehaviour:
   steelBrick: {fileID: 1578614514399256034, guid: aa8fc80c7d6d274458bcaa3f94dc95b3, type: 3}
   explosiveBrick: {fileID: 9205239416351406527, guid: 34c11db09c6468f46a64d274c73a0c06, type: 3}
   standardBrick: {fileID: 7348328631410601404, guid: 31e89b86b9f3c124db4796c7b7395b5e, type: 3}
+  brickContainer: {fileID: 541312015}
 --- !u!1 &2021651838
 GameObject:
   m_ObjectHideFlags: 0
@@ -10615,6 +10717,7 @@ MonoBehaviour:
   steelBrick: {fileID: 1578614514399256034, guid: aa8fc80c7d6d274458bcaa3f94dc95b3, type: 3}
   explosiveBrick: {fileID: 9205239416351406527, guid: 34c11db09c6468f46a64d274c73a0c06, type: 3}
   standardBrick: {fileID: 7348328631410601404, guid: 31e89b86b9f3c124db4796c7b7395b5e, type: 3}
+  brickContainer: {fileID: 541312015}
 --- !u!1 &2026883833
 GameObject:
   m_ObjectHideFlags: 0
@@ -10724,6 +10827,7 @@ MonoBehaviour:
   steelBrick: {fileID: 1578614514399256034, guid: aa8fc80c7d6d274458bcaa3f94dc95b3, type: 3}
   explosiveBrick: {fileID: 9205239416351406527, guid: 34c11db09c6468f46a64d274c73a0c06, type: 3}
   standardBrick: {fileID: 7348328631410601404, guid: 31e89b86b9f3c124db4796c7b7395b5e, type: 3}
+  brickContainer: {fileID: 541312015}
 --- !u!1 &2044173835
 GameObject:
   m_ObjectHideFlags: 0
@@ -10833,6 +10937,7 @@ MonoBehaviour:
   steelBrick: {fileID: 1578614514399256034, guid: aa8fc80c7d6d274458bcaa3f94dc95b3, type: 3}
   explosiveBrick: {fileID: 9205239416351406527, guid: 34c11db09c6468f46a64d274c73a0c06, type: 3}
   standardBrick: {fileID: 7348328631410601404, guid: 31e89b86b9f3c124db4796c7b7395b5e, type: 3}
+  brickContainer: {fileID: 541312015}
 --- !u!1 &2055461181
 GameObject:
   m_ObjectHideFlags: 0
@@ -10942,6 +11047,7 @@ MonoBehaviour:
   steelBrick: {fileID: 1578614514399256034, guid: aa8fc80c7d6d274458bcaa3f94dc95b3, type: 3}
   explosiveBrick: {fileID: 9205239416351406527, guid: 34c11db09c6468f46a64d274c73a0c06, type: 3}
   standardBrick: {fileID: 7348328631410601404, guid: 31e89b86b9f3c124db4796c7b7395b5e, type: 3}
+  brickContainer: {fileID: 541312015}
 --- !u!1 &2127866447
 GameObject:
   m_ObjectHideFlags: 0
@@ -11051,6 +11157,7 @@ MonoBehaviour:
   steelBrick: {fileID: 1578614514399256034, guid: aa8fc80c7d6d274458bcaa3f94dc95b3, type: 3}
   explosiveBrick: {fileID: 9205239416351406527, guid: 34c11db09c6468f46a64d274c73a0c06, type: 3}
   standardBrick: {fileID: 7348328631410601404, guid: 31e89b86b9f3c124db4796c7b7395b5e, type: 3}
+  brickContainer: {fileID: 541312015}
 --- !u!1 &2132051708
 GameObject:
   m_ObjectHideFlags: 0
@@ -11160,6 +11267,7 @@ MonoBehaviour:
   steelBrick: {fileID: 1578614514399256034, guid: aa8fc80c7d6d274458bcaa3f94dc95b3, type: 3}
   explosiveBrick: {fileID: 9205239416351406527, guid: 34c11db09c6468f46a64d274c73a0c06, type: 3}
   standardBrick: {fileID: 7348328631410601404, guid: 31e89b86b9f3c124db4796c7b7395b5e, type: 3}
+  brickContainer: {fileID: 541312015}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
@@ -11170,3 +11278,4 @@ SceneRoots:
   - {fileID: 956461916}
   - {fileID: 48511077}
   - {fileID: 1185295845}
+  - {fileID: 541312015}

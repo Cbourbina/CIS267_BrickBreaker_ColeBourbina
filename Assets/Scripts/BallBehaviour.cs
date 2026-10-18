@@ -20,6 +20,11 @@ public class BallBehaviour : MonoBehaviour
     private float timer;
     private float slowTimer;
     private float startGameTimer;
+    private int gameLives = 3;
+    public Transform brickContainer;
+    private bool gameOver;
+    private bool gameWon;
+    GameObject paddle;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -28,22 +33,44 @@ public class BallBehaviour : MonoBehaviour
         slowTimer = 0f;
         startGameTimer = 0f;
         ballRigidBody = GetComponent<Rigidbody2D>();
-        //ballRigidBody.linearVelocityY = -1 * defaultSpeed;
-
+        gameOver = false;
+        gameWon = false;
     }
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Space) && startGame == false)
+        if (gameOver != true)
         {
-            startGame = true;
-            Debug.Log("Space");
+            if (brickContainer.childCount == 0)
+            {
+                gameWon = true;
+                gameOver = true;
+            }
+            if (gameWon == true)
+            {
+                ballRigidBody.linearVelocity = new Vector2(0, 0);
+                ballRigidBody.transform.position = new Vector2(0, -5);
+                paddle = GameObject.FindGameObjectWithTag("Paddle");
+                PaddleController paddleScript = paddle.GetComponent<PaddleController>();
+                paddleScript.gameStarted = false;
+                paddle.GetComponent<Rigidbody2D>().linearVelocity = new Vector2(0, 0);
+                paddle.transform.position = new Vector2(0, -6);
+            }
+            {
+                
+            }
+            if (Input.GetKeyDown(KeyCode.Space) && startGame == false)
+            {
+                startGame = true;
+                Debug.Log("Space");
+            }
+            if (ballRigidBody.linearVelocity.magnitude < minSpeed)
+            {
+                Vector2 currentDirection = ballRigidBody.linearVelocity.normalized;
+                ballRigidBody.linearVelocity = currentDirection * defaultSpeed;
+            }
         }
-        if (ballRigidBody.linearVelocity.magnitude < minSpeed)
-        {
-            Vector2 currentDirection = ballRigidBody.linearVelocity.normalized;
-            ballRigidBody.linearVelocity = currentDirection * defaultSpeed;
-        }
+        Debug.Log("Bricks Left: " + brickContainer.childCount);
     }
 
     private void FixedUpdate()
@@ -93,6 +120,13 @@ public class BallBehaviour : MonoBehaviour
             if (ballRigidBody.linearVelocityX != 0)
             {
                 ballRigidBody.linearVelocity = new Vector2(ballRigidBody.linearVelocityX, 0.5f);
+            }
+        }
+        if (ballRigidBody.linearVelocityX < 0.1 && ballRigidBody.linearVelocityX > -0.1)
+        {
+            if (ballRigidBody.linearVelocityY != 0)
+            {
+                ballRigidBody.linearVelocity = new Vector2(0.5f, ballRigidBody.linearVelocityY);
             }
         }
     }
@@ -189,6 +223,25 @@ public class BallBehaviour : MonoBehaviour
             previousVelocity = speed;
             ballRigidBody.linearVelocity = speed * currentDirection;
             isSlowed = true;
+        }
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.gameObject.CompareTag("BottomBounds"))
+        {
+            gameLives--;
+            ballRigidBody.linearVelocity = new Vector2(0, 0);
+            ballRigidBody.transform.position = new Vector2 (0, -5);
+            paddle = GameObject.FindGameObjectWithTag("Paddle");
+            PaddleController paddleScript = paddle.GetComponent<PaddleController>();
+            paddleScript.gameStarted = false;
+            paddle.GetComponent<Rigidbody2D>().linearVelocity = new Vector2 (0,0);
+            paddle.transform.position = new Vector2 (0, -6);
+            if (gameLives <= 0)
+            {
+                gameOver = true;
+            }
         }
     }
 }
