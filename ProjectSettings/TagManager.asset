@@ -25,6 +25,7 @@ TagManager:
   - RCenter
   - "90\xB0"
   - BottomBounds
+  - Collectable
   layers:
   - Default
   - TransparentFX

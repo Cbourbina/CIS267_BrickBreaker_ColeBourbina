@@ -347,3 +347,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44a0e4b7e5e83f247a47a517da492742, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BrickController
+  collectableSpawner: {fileID: 1921256316843752614, guid: 2d016e3d0a7350e46a15e3b81f003896, type: 3}

@@ -4,8 +4,11 @@ public class BrickController : MonoBehaviour
 {
     private float brickHealth;
     private float explosionDamage = 2;
+    private float randomNumber;
     private bool effectedByRadius;
     private bool isFrozen;
+    public GameObject collectableSpawner;
+    private GameObject objectToSpawn;
     private Collider2D radiusCollision;
     //public bool radiusAnimationComplete = false;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -29,6 +32,7 @@ public class BrickController : MonoBehaviour
         }
         effectedByRadius = false;
         isFrozen = false;
+        randomNumber = Random.Range(0, 100);
     }
 
     // Update is called once per frame
@@ -84,6 +88,10 @@ public class BrickController : MonoBehaviour
         if (collision.gameObject.CompareTag("Ball") && isFrozen == true)
         {
             collision.GetComponent<BallBehaviour>().slowBall();
+            if (randomNumber < 20)
+            {
+                spawnCollectableSpawner();
+            }
             Destroy(this.gameObject);
         }
     }
@@ -105,9 +113,19 @@ public class BrickController : MonoBehaviour
                 brickHealth -= 1;
                 if (brickHealth <= 0)
                 {
+                    if (randomNumber < 20)
+                    {
+                        spawnCollectableSpawner();
+                    }
                     Destroy(this.gameObject);
                 }
             }
         }    
+    }
+
+    private void spawnCollectableSpawner()
+    {
+        objectToSpawn = Instantiate(collectableSpawner);
+        objectToSpawn.transform.position = this.transform.position;
     }
 }
