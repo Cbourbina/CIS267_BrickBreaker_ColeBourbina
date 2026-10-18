@@ -21,7 +21,9 @@ public class BallBehaviour : MonoBehaviour
     private float slowTimer;
     private float startGameTimer;
     private int gameLives = 3;
+    private int bricksLeft;
     public Transform brickContainer;
+    public Transform gameManager;
     private bool gameOver;
     private bool gameWon;
     GameObject paddle;
@@ -70,7 +72,11 @@ public class BallBehaviour : MonoBehaviour
                 ballRigidBody.linearVelocity = currentDirection * defaultSpeed;
             }
         }
-        Debug.Log("Bricks Left: " + brickContainer.childCount);
+        if (bricksLeft != brickContainer.childCount)
+        {
+            bricksLeft = brickContainer.childCount;
+            gameManager.GetComponent<GameManager>().updateBricksDisplay(bricksLeft);
+        }
     }
 
     private void FixedUpdate()
@@ -231,6 +237,7 @@ public class BallBehaviour : MonoBehaviour
         if (collision.gameObject.CompareTag("BottomBounds"))
         {
             gameLives--;
+            gameManager.GetComponent<GameManager>().updateLivesDisplay(gameLives);
             ballRigidBody.linearVelocity = new Vector2(0, 0);
             ballRigidBody.transform.position = new Vector2 (0, -5);
             paddle = GameObject.FindGameObjectWithTag("Paddle");
@@ -241,6 +248,10 @@ public class BallBehaviour : MonoBehaviour
             if (gameLives <= 0)
             {
                 gameOver = true;
+            }
+            else
+            {
+                gameManager.GetComponent<GameManager>().timerStarted = false;
             }
         }
     }
