@@ -6,11 +6,14 @@ public class PaddleController : MonoBehaviour
     private float moveSpeed;
     private Rigidbody2D paddleRigidBody;
     public bool gameStarted;
+    public bool paddleGrown;
+    private float timer;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         paddleRigidBody = GetComponent<Rigidbody2D>();
         gameStarted = false;
+        paddleGrown = false;
     }
 
     // Update is called once per frame
@@ -19,6 +22,17 @@ public class PaddleController : MonoBehaviour
         if (gameStarted == true)
         {
             movePaddleLateral();
+        }
+        if (paddleGrown == true)
+        {
+            timer += Time.deltaTime;
+            if (timer >= 5f)
+            {
+                paddleGrown = false;
+                GetComponent<Animator>().SetTrigger("startPaddleShrink");
+                timer = 0f;
+            }
+            Debug.Log("Timer: " + timer);
         }
     }
 
@@ -44,6 +58,15 @@ public class PaddleController : MonoBehaviour
         if (gameStarted == false)
         {
             gameStarted = true;
+        }
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.CompareTag("Collectable"))
+        {
+            Debug.Log("Collectable Collected");
+            Destroy(collision.gameObject);
         }
     }
 }

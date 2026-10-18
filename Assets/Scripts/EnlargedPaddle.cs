@@ -13,4 +13,14 @@ public class EnlargedPaddle : MonoBehaviour
     {
         
     }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.gameObject.CompareTag("Paddle") && collision.gameObject.GetComponent<PaddleController>().paddleGrown == false)
+        {
+            collision.transform.gameObject.GetComponent<Animator>().SetTrigger("startPaddleGrow");
+            Debug.Log("Enlarging Paddle");
+            collision.gameObject.GetComponent<PaddleController>().paddleGrown = true;
+        }
+    }
 }

@@ -46,7 +46,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -116,12 +116,12 @@ TextureImporter:
       name: halfscore_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 20
-        height: 20
+        x: 12
+        y: 270
+        width: 77
+        height: 45
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -130,6 +130,116 @@ TextureImporter:
       bones: []
       spriteID: ebd3676c486a4a680800000000000000
       internalID: -8744681487251128898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: halfscore_1
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 223
+        width: 26
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0de225a17b8242843ac3e77e6f1d4502
+      internalID: 1982058254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: halfscore_2
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 223
+        width: 28
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc03b2dcc1e2adc4ea9d3f6121728887
+      internalID: 1451450884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: halfscore_3
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 173
+        width: 77
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 737b3fcd490a0d3459a022568e92fdb4
+      internalID: -1906537882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: halfscore_4
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 125
+        width: 28
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b041f397c5272b428d0fbf13164da6b
+      internalID: -2034873991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: halfscore_5
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 116
+        width: 26
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 159b10fc20f9b664995e0d5e416fff28
+      internalID: -1852553322
       vertices: []
       indices: 
       edges: []
@@ -146,9 +256,16 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
       halfscore_0: -8744681487251128898
+      halfscore_1: 1982058254
+      halfscore_2: 1451450884
+      halfscore_3: -1906537882
+      halfscore_4: -2034873991
+      halfscore_5: -1852553322
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

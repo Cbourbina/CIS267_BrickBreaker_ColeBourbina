@@ -27,6 +27,9 @@ public class BallBehaviour : MonoBehaviour
     private bool gameOver;
     private bool gameWon;
     GameObject paddle;
+    public PlayerScore playerScore;
+    private int curScore;
+    private float scoreMod;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -37,6 +40,8 @@ public class BallBehaviour : MonoBehaviour
         ballRigidBody = GetComponent<Rigidbody2D>();
         gameOver = false;
         gameWon = false;
+        curScore = 0;
+        scoreMod = 1;
     }
     // Update is called once per frame
     void Update()
@@ -77,6 +82,8 @@ public class BallBehaviour : MonoBehaviour
             bricksLeft = brickContainer.childCount;
             gameManager.GetComponent<GameManager>().updateBricksDisplay(bricksLeft);
         }
+        //Debug.Log("Score is: " + curScore);
+        playerScore.setPlayerScore(curScore);
     }
 
     private void FixedUpdate()
@@ -253,6 +260,24 @@ public class BallBehaviour : MonoBehaviour
             {
                 gameManager.GetComponent<GameManager>().timerStarted = false;
             }
+        }
+    }
+
+    public void setScoreTemp(int score)
+    {
+        curScore += (int)(score * scoreMod);
+    }
+
+    public void scoreModUp()
+    {
+        scoreMod *= 2;
+    }
+
+    public void scoreModDown()
+    {
+        if (scoreMod > 1)
+        {
+            scoreMod /= 2;
         }
     }
 }

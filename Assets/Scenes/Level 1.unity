@@ -3798,6 +3798,7 @@ GameObject:
   - component: {fileID: 511017951}
   - component: {fileID: 511017950}
   - component: {fileID: 511017949}
+  - component: {fileID: 511017954}
   m_Layer: 0
   m_Name: Paddle
   m_TagString: Paddle
@@ -3819,6 +3820,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::PaddleController
   moveSpeed: 10
   gameStarted: 0
+  paddleGrown: 0
 --- !u!50 &511017950
 Rigidbody2D:
   serializedVersion: 5
@@ -3969,6 +3971,28 @@ Transform:
   - {fileID: 524129248}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &511017954
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 511017948}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: df763449e0639f946a37a3d3f3e16982, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -4301,6 +4325,7 @@ GameObject:
   m_Component:
   - component: {fileID: 524129248}
   - component: {fileID: 524129249}
+  - component: {fileID: 524129250}
   m_Layer: 0
   m_Name: Paddle_0
   m_TagString: Untagged
@@ -4383,6 +4408,28 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
   m_BlendShapeWeights: []
+--- !u!95 &524129250
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 524129247}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: b0c53816c26bb1747aa9c6827603853d, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &531707861
 GameObject:
   m_ObjectHideFlags: 0
@@ -6755,6 +6802,7 @@ MonoBehaviour:
   ballSpeedIncrement: 1
   brickContainer: {fileID: 541312015}
   gameManager: {fileID: 1827781699}
+  playerScore: {fileID: 1571612932}
 --- !u!50 &956461918
 Rigidbody2D:
   serializedVersion: 5
@@ -9869,6 +9917,51 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
   m_BlendShapeWeights: []
+--- !u!1 &1571612931
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1571612933}
+  - component: {fileID: 1571612932}
+  m_Layer: 0
+  m_Name: ScoreManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1571612932
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1571612931}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e119fd31e44b4884a92ace7583859fea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerScore
+  guiScore: {fileID: 683431011}
+--- !u!4 &1571612933
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1571612931}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 4.34725, y: -0.87432, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1602731966
 GameObject:
   m_ObjectHideFlags: 0
@@ -11554,6 +11647,8 @@ MonoBehaviour:
   livesRemaining: {fileID: 997697896}
   bricksRemaining: {fileID: 1804497063}
   timerStarted: 0
+  finalScore: {fileID: 683431011}
+  curScore: {fileID: 1571612932}
 --- !u!1 &1832955420
 GameObject:
   m_ObjectHideFlags: 0
@@ -13138,3 +13233,4 @@ SceneRoots:
   - {fileID: 1024321168}
   - {fileID: 1827781699}
   - {fileID: 1825679152}
+  - {fileID: 1571612933}

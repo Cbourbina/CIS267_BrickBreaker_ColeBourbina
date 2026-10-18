@@ -14,6 +14,7 @@ public class BrickController : MonoBehaviour
     public Sprite frozenSprite;
     public Sprite[] steelSprites;
     private SpriteRenderer spriteRenderer;
+    private int brickScore;
     //public bool radiusAnimationComplete = false;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -21,18 +22,22 @@ public class BrickController : MonoBehaviour
         if (CompareTag("Explosive"))
         {
             brickHealth = 1;
+            brickScore = 10;
         }
         else if (CompareTag("Ice"))
         {
             brickHealth = 1;
+            brickScore = 5;
         }
         else if (CompareTag("Steel"))
         {
             brickHealth = 3;
+            brickScore = 50;
         }
         else 
         {
             brickHealth = 1;
+            brickScore = 10;
         }
         effectedByRadius = false;
         isFrozen = false;
@@ -105,6 +110,7 @@ public class BrickController : MonoBehaviour
         }
         if (collision.gameObject.CompareTag("Ball") && CompareTag("Ice"))
         {
+            collision.gameObject.GetComponent<BallBehaviour>()?.setScoreTemp((int)(brickScore));
             collision.GetComponent<BallBehaviour>().slowBall();
             transform.GetChild(0).gameObject.GetComponent<Animator>().SetTrigger("startGrow");
             transform.GetChild(1).gameObject.GetComponent<SpriteRenderer>().sprite = null;
@@ -116,6 +122,7 @@ public class BrickController : MonoBehaviour
             {
                 spawnCollectableSpawner();
             }
+            collision.gameObject.GetComponent<BallBehaviour>()?.setScoreTemp((int)(brickScore));
             Destroy(this.gameObject);
         }
     }
@@ -129,6 +136,7 @@ public class BrickController : MonoBehaviour
                 GetComponent<Collider2D>().isTrigger = enabled;
                 transform.GetChild(0).gameObject.GetComponent<Animator>().SetTrigger("startGrow");
                 transform.GetChild(1).gameObject.GetComponent<SpriteRenderer>().sprite = null;
+                collision.gameObject.GetComponent<BallBehaviour>()?.setScoreTemp((int)(brickScore));
             }
             else if (CompareTag("Ice"))
             {
@@ -142,6 +150,7 @@ public class BrickController : MonoBehaviour
                     {
                         spawnCollectableSpawner();
                     }
+                    collision.gameObject.GetComponent<BallBehaviour>()?.setScoreTemp((int)(brickScore));
                     Destroy(this.gameObject);
                 }
             }

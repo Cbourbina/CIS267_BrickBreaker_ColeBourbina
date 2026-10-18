@@ -9,6 +9,8 @@ public class GameManager : MonoBehaviour
     public TMP_Text bricksRemaining;
     private float startGameTimer;
     public bool timerStarted;
+    public TMP_Text finalScore;
+    public PlayerScore curScore;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -29,6 +31,7 @@ public class GameManager : MonoBehaviour
             startTimer.enabled = true;
             timerStarted = true;
         }
+        updateHighScore();
     }
 
     private void FixedUpdate()
@@ -55,4 +58,13 @@ public class GameManager : MonoBehaviour
     {
         bricksRemaining.text = bricks.ToString();
     }
+
+    public void updateHighScore()
+    {
+        if (curScore.getScore() > PlayerPrefs.GetInt("Highscore"))
+        {
+            PlayerPrefs.SetInt("Highscore", curScore.getScore());
+        }
+    }
+
 }
