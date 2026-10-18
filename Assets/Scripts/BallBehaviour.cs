@@ -1,6 +1,7 @@
 using Unity.Mathematics;
 using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class BallBehaviour : MonoBehaviour
 {
@@ -46,6 +47,17 @@ public class BallBehaviour : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (gameOver == true)
+        {
+            if (gameWon == false)
+            {
+                SceneManager.LoadScene("Game Over");
+            }
+            else 
+            {
+                SceneManager.LoadScene("Game Won");
+            }
+        }
         if (gameOver != true)
         {
             if (brickContainer.childCount == 0)
