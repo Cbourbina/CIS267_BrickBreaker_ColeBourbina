@@ -7,6 +7,7 @@ public class GameManager : MonoBehaviour
     public TMP_Text startTimer;
     public TMP_Text livesRemaining;
     public TMP_Text bricksRemaining;
+    public TMP_Text tip;
     private float startGameTimer;
     public bool timerStarted;
     public TMP_Text finalScore;
@@ -16,6 +17,7 @@ public class GameManager : MonoBehaviour
     {
         startTimerPanel.SetAlpha(0f);
         startTimer.enabled = false;
+        //tip.enabled = false;
         timerStarted = false;
         startGameTimer = 0f;
         timerStarted = false;
@@ -24,11 +26,16 @@ public class GameManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (timerStarted == false)
+        {
+            tip.enabled = true;
+        }
         if (Input.GetKeyDown(KeyCode.Space) && timerStarted == false)
         {
             timerStarted = true;
             startTimerPanel.SetAlpha(1f);
             startTimer.enabled = true;
+            tip.enabled = false;
             timerStarted = true;
         }
         updateHighScore();
@@ -44,6 +51,7 @@ public class GameManager : MonoBehaviour
             {
                 startTimerPanel.SetAlpha(0f);
                 startTimer.enabled = false;
+                tip.enabled = false;
                 startGameTimer = 0f;
             }
         }

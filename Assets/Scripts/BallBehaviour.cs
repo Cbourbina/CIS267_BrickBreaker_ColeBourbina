@@ -1,7 +1,6 @@
 using Unity.Mathematics;
 using Unity.VisualScripting;
 using UnityEngine;
-using UnityEngine.SceneManagement;
 
 public class BallBehaviour : MonoBehaviour
 {
@@ -31,6 +30,8 @@ public class BallBehaviour : MonoBehaviour
     public PlayerScore playerScore;
     private int curScore;
     private float scoreMod;
+    public GameObject GameOverCanvas;
+    public GameObject GameWonCanvas;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -51,11 +52,11 @@ public class BallBehaviour : MonoBehaviour
         {
             if (gameWon == false)
             {
-                SceneManager.LoadScene("Game Over");
+                GameOverCanvas.SetActive(true);
             }
             else 
             {
-                SceneManager.LoadScene("Game Won");
+                GameWonCanvas.SetActive(true);
             }
         }
         if (gameOver != true)
